@@ -1,0 +1,29 @@
+PODS:
+  - HRTAppModule (0.0.1)
+  - HRTFontToolkit (0.0.1):
+    - HRTFontToolkit/UIKit (= 0.0.1)
+  - HRTFontToolkit/UIKit (0.0.1)
+  - JLRoutes (1.5.3)
+
+DEPENDENCIES:
+  - HRTAppModule (from `git@github.com:hirat/HRTAppModule.git`)
+  - HRTFontToolkit (from `.`)
+  - JLRoutes (~> 1.5.3)
+
+EXTERNAL SOURCES:
+  HRTAppModule:
+    :git: git@github.com:hirat/HRTAppModule.git
+  HRTFontToolkit:
+    :path: "."
+
+CHECKOUT OPTIONS:
+  HRTAppModule:
+    :commit: f446a00cced7f4f43d93ec61f0325f6eb1153dde
+    :git: git@github.com:hirat/HRTAppModule.git
+
+SPEC CHECKSUMS:
+  HRTAppModule: 9e5afe33c1aa04a8a449ea7593a9c52e30e31b7a
+  HRTFontToolkit: fdd6b15114b05efe5cdc901119da464a25c379ac
+  JLRoutes: 20555d00693855b71e80715eeaae6a930a33b2f5
+
+COCOAPODS: 0.38.2
