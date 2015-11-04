@@ -1,8 +1,10 @@
 PODS:
   - HRTAppModule (0.0.1)
-  - HRTFontToolkit (0.0.1):
-    - HRTFontToolkit/UIKit (= 0.0.1)
-  - HRTFontToolkit/UIKit (0.0.1)
+  - HRTFontToolkit (0.0.2):
+    - HRTFontToolkit/UIKit (= 0.0.2)
+    - JLRoutes (~> 1.5.3)
+  - HRTFontToolkit/UIKit (0.0.2):
+    - JLRoutes (~> 1.5.3)
   - JLRoutes (1.5.3)
 
 DEPENDENCIES:
@@ -23,7 +25,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   HRTAppModule: 9e5afe33c1aa04a8a449ea7593a9c52e30e31b7a
-  HRTFontToolkit: fdd6b15114b05efe5cdc901119da464a25c379ac
+  HRTFontToolkit: 0d839c2d66904212fa963eb235f866ceee86af79
   JLRoutes: 20555d00693855b71e80715eeaae6a930a33b2f5
 
 COCOAPODS: 0.38.2

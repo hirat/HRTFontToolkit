@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HRTFontToolkit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "UIFont相关的操作."
   s.homepage     = "http://github.com/hirat"
   s.license      = "MIT"
@@ -13,5 +13,7 @@ Pod::Spec.new do |s|
   s.subspec 'UIKit' do |uikit|
     uikit.source_files = 'HRTFontToolkit/UIKit/*.{h,m}'    
   end
+
+  s.dependency "JLRoutes", "~> 1.5.3"
 
 end
