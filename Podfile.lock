@@ -10,7 +10,6 @@ PODS:
 DEPENDENCIES:
   - HRTAppModule (from `git@github.com:hirat/HRTAppModule.git`)
   - HRTFontToolkit (from `.`)
-  - JLRoutes (~> 1.5.3)
 
 EXTERNAL SOURCES:
   HRTAppModule:
@@ -28,4 +27,4 @@ SPEC CHECKSUMS:
   HRTFontToolkit: 0d839c2d66904212fa963eb235f866ceee86af79
   JLRoutes: 20555d00693855b71e80715eeaae6a930a33b2f5
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

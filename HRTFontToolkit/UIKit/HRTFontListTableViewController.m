@@ -24,6 +24,18 @@
     self.dataSource = [NSMutableArray arrayWithArray: sortedFamilyNames];
 }
 
+- (void)loadView
+{
+    [super loadView];
+    
+    UIView* tableFooterView = [[UIView alloc] initWithFrame: CGRectMake(0, 0, self.tableView.frame.size.width, 30)];
+    tableFooterView.backgroundColor = [UIColor clearColor];
+    self.tableView.tableFooterView = tableFooterView;
+    
+    self.tableView.backgroundColor = [UIColor colorWithRed: 223/255.0 green: 235/255.0 blue: 342/255.0 alpha: 1];
+}
+
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -71,17 +83,18 @@
 - (UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
     CGFloat height = [self tableView: tableView heightForHeaderInSection: section];
-    UIView* view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(tableView.frame), height)];
-    view.backgroundColor = [UIColor clearColor];
+    UIView *view=[[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(tableView.frame), height)];
+    view.backgroundColor = [UIColor colorWithRed: 243/255.0 green: 248/255.0 blue: 248/255.0 alpha: 1];
     
     UILabel* label = [[UILabel alloc] initWithFrame: CGRectInset(view.bounds, 15, 0)];
     label.backgroundColor = [UIColor clearColor];
-    label.textColor = [UIColor lightGrayColor];
+    label.textColor = [UIColor colorWithRed: 170/255.0 green: 170/255.0 blue: 170/255.0 alpha: 1];
     label.text = self.dataSource[section];
     
     [view addSubview: label];
     
     return view;
 }
+
 
 @end

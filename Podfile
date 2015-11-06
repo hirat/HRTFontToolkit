@@ -1,5 +1,4 @@
 target 'SenderDemo', :exclusive => true do
-  pod 'JLRoutes', '~> 1.5.3’
 end
 
 target 'ReceiverDemo', :exclusive => true do
