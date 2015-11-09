@@ -55,6 +55,7 @@
 {
     [super loadView];
     
+    self.tableView.backgroundColor = [UIColor colorWithRed: 243/255.0 green: 248/255.0 blue: 248/255.0 alpha: 0.9];
     [self setupTitleView];
 }
 

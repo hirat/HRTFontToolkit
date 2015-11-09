@@ -32,7 +32,7 @@
     tableFooterView.backgroundColor = [UIColor clearColor];
     self.tableView.tableFooterView = tableFooterView;
     
-    self.tableView.backgroundColor = [UIColor colorWithRed: 223/255.0 green: 235/255.0 blue: 342/255.0 alpha: 1];
+    self.tableView.backgroundColor = [UIColor colorWithRed: 243/255.0 green: 248/255.0 blue: 248/255.0 alpha: 0.9];
 }
 
 
